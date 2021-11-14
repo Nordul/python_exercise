@@ -1,0 +1,6 @@
+foots = ('汉堡','炸鸡','薯条','川菜','鲁菜')
+for foot in foots:
+    print(foot)
+foots = ('汉堡','炸鸡','薯条','可乐','披萨')
+for foot in foots:
+    print(foot)

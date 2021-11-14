@@ -7,15 +7,11 @@ n = int(n)
 
 if n == 1:
     print(x+y)
-    exit(0)
-if n == 2:
+elif n == 2:
     print(x-y)
-    exit(0)
-if n == 3:
+elif n == 3:
     print(x*y)
-    exit(0)
-if n == 4:
+elif n == 4:
     print(x/y)
-    exit(0)
-if n != 1 or n != 2 or n != 3 or n != 4:
+elif n != 1 or n != 2 or n != 3 or n != 4:
     print('运算符输入有误')
